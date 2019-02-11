@@ -7,7 +7,7 @@
 
 ### Links and Resources
 * [repo](https://github.com/niesssiobhan/35-project-cms)
-* [travis](http://xyz.com)
+* [travis](https://www.travis-ci.com/niesssiobhan/35-project-cms)
 * [front-end](http://xyz.com)
 
 ### Modules
