@@ -1,37 +1,32 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## CMS
 
-### Author: Student/Group Name
+### Author: Siobhan Niess
 
 ### Links and Resources
-* [repo](http://xyz.com)
+* [repo](https://github.com/niesssiobhan/35-project-cms)
 * [travis](http://xyz.com)
-* [back-end](http://xyz.com)
 * [front-end](http://xyz.com)
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
+- `index.js` this file renders the main app
+- `store/index.js` this file creates the store 
+- `components/if/index.js` this file creates conditional children components
+- `components/cms/actions.js` this file contains the actions for the app
+- `components/cms/cms.js` this file contains the CMS class to render the models, record and records components for the CMS
+- `components/cms/models.js` this file contains the models class and functionality 
+- `components/cms/record.js` this file contains the record class and functionality
+- `components/cms/records.js` this file contains the records class and functionality
+- `components/cms/reducers.js` this file contains the reducers using a switch case 
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `PORT` - Defined by environment
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+- you will want to run `npm start` in your terminal
 
 #### Tests
 * How do you run tests?
@@ -39,4 +34,5 @@ Usage Notes or examples
 * What assertions need to be / should be made?
 
 #### UML
-Link to an image of the UML for your application and response to events
+![Whiteboard image of cms diagram]()
+![Whiteboard image of cms flow]()
