@@ -34,5 +34,5 @@
 * What assertions need to be / should be made?
 
 #### UML
-![Whiteboard image of cms diagram]()
-![Whiteboard image of cms flow]()
+![Whiteboard image of cms diagram](./assets/diagram.jpg)
+![Whiteboard image of cms flow](./assets/dataFlow.jpg)
